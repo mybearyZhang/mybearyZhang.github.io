@@ -14,10 +14,14 @@ Education
 <!-- * Ph.D in Version Control Theory, GitHub University, 2018 (expected)
 * M.S. in Jekyll, GitHub University, 2014 -->
 * B.S. major in Computer Science, Shanghai Jiao Tong University, 2025 (expected)
+  * Rank **1**/103, with 27 courses getting A+ and 19 courses getting A out of the 53 courses
+  * **Zhiyuan Honor Program of Engineering** (an elite program for Top 5% talented students)
 
 Research Experience
 ======
-Under Maintenance...
+<!-- Under Maintenance... -->
++ **Machine Vision and Intelligent Group** ([MVIG](https://www.mvig.org)), Shanghai Jiao Tong University
+  + *Undergraduate Research Intern*, Advisor: Prof. [Yong-Lu Li](https://dirtyharrylyl.github.io/) and Prof. [Cewu Lu](https://www.mvig.org/)
 
 <!-- * Spring 2024: Academic Pages Collaborator
   * Github University
@@ -45,7 +49,9 @@ Awards
 
 Leadership
 ======
-Under Maintenance...
++ Students' Union of Zhiyuan College, SJTU, 2022.2-2023.2
++ Class Committee of F2103302, SJTU, 2021.12-*present*
++ Study Mentor of SEIEE, SJTU, 2023.4-*present*
   
 Skills
 ======
@@ -81,7 +87,7 @@ Service and leadership
 Note
 ======
 
-A camera-ready version can be found [here](https://onecodingbear.github.io/files/cv.pdf). (todo)
+A camera-ready version can be found [here](https://mybearyzhang.github.io/files/cv.pdf). (todo)
 
-*Last Updated on Mar. 20, 2024*
+*Last Updated on Mar. 22, 2024*
 

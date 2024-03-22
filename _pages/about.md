@@ -7,8 +7,18 @@ redirect_from:
   - /about.html
 ---
 
-**Under Maintenance...**
-<!-- I’m a junior in Shanghai Jiao Tong University under the supervision of Prof. Cewu Lu and Yong-Lu Li, where I also received B.S. in computer science. My research interests are machine learning and computer vision, especially object concept reasoning and multimodality understanding. -->
+<!-- **Under Maintenance...** -->
+
+I’m a junior student studying at Shanghai Jiao Tong University, major in Computer Science.
+Currently, I'm working closely with Prof. [Yong-Lu Li](https://dirtyharrylyl.github.io/) at [MVIG](https://www.mvig.org/) Lab, [RHOS](https://mvig-rhos.com/) Group, supervised by Prof. [Cewu Lu](https://www.mvig.org/)
+My research interests mainly lie in **Computer Vision**, **Physical Reasoning**, and **Robotics**. 
+<!-- I am now focusing on the
+physical reasoning capability of deep learning models, exploring its potential for both better performance of LLMs and
+application in robotics. Before that, I conducted in-depth research in visual reasoning, proposing a general framework for
+visual reasoning tasks to reach generalization and better performance. -->
+
+
+My CV can be found [here](https://mybearyzhang.github.io/cv/).
 
 <!-- This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
 
