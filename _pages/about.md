@@ -10,7 +10,7 @@ redirect_from:
 <!-- **Under Maintenance...** -->
 
 I’m a junior student studying at Shanghai Jiao Tong University, major in Computer Science.
-Currently, I'm working closely with Prof. [Yong-Lu Li](https://dirtyharrylyl.github.io/) at [MVIG](https://www.mvig.org/) Lab, [RHOS](https://mvig-rhos.com/) Group, supervised by Prof. [Cewu Lu](https://www.mvig.org/)
+Currently, I'm working closely with Prof. [Yong-Lu Li](https://dirtyharrylyl.github.io/) at [MVIG](https://www.mvig.org/) Lab, [RHOS](https://mvig-rhos.com/) Group, supervised by Prof. [Cewu Lu](https://www.mvig.org/).
 My research interests mainly lie in **Computer Vision**, **Physical Reasoning**, and **Robotics**. 
 <!-- I am now focusing on the
 physical reasoning capability of deep learning models, exploring its potential for both better performance of LLMs and
