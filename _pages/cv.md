@@ -41,6 +41,7 @@ Research Experience
 Awards
 ======
 * **National Scholarship** (top 0.2% nationwide), Ministry of Education of the People's Republic of China, 2021
+* **Hanying Juhua Scholarship** (top 15 winners in Zhiyuan Honor Program), SJTU, 2024
 * **Zhiyuan Honors Scholarship** (top 5%), SJTU, 2021, 2022, 2023
 * **Finalist Prize of Mathematical Contest in Modeling (MCM)** (top 1%), MCM, 2022
 * **Merit Student** (top 5%), SJTU, 2022, 2023
