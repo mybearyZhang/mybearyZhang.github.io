@@ -40,13 +40,14 @@ Research Experience
 
 Awards
 ======
-* **National Scholarship** (top 0.2% nationwide), Ministry of Education of the People's Republic of China, 2021
-* **Hanying Juhua Scholarship** (top 15 winners in Zhiyuan Honor Program), SJTU, 2024
-* **Zhiyuan Honors Scholarship** (top 5%), SJTU, 2021, 2022, 2023
-* **Finalist Prize of Mathematical Contest in Modeling (MCM)** (top 1%), MCM, 2022
-* **Merit Student** (top 5%), SJTU, 2022, 2023
-* **Merit Scholarship** (top 5%), SJTU, 2022, 2023
-* **Huatai Securities Technology Scholarship** (top 5%), SJTU, 2022
+* **National Scholarship** (Top 0.2% nationwide), Ministry of Education of the People's Republic of China, 2021
+* **SenseTime Scholarship** (Top 25 undergraduate AI researchers nationwide), 2024
+* **Hanying Juhua Scholarship** (Top 15 winners in Zhiyuan Honor Program), SJTU, 2024
+* **Zhiyuan Honors Scholarship** (Top 5%), SJTU, 2021, 2022, 2023
+* **Finalist Prize of Mathematical Contest in Modeling (MCM)** (Top 1%), MCM, 2022
+* **Merit Student** (Top 5%), SJTU, 2022, 2023
+* **Merit Scholarship** (Top 5%), SJTU, 2022, 2023
+* **Huatai Securities Technology Scholarship** (Top 5%), SJTU, 2022
 
 Leadership
 ======
@@ -90,5 +91,5 @@ Note
 
 A camera-ready version can be found [here](https://mybearyzhang.github.io/files/cv.pdf). (todo)
 
-*Last Updated on Mar. 22, 2024*
+*Last Updated on June 16, 2024*
 
