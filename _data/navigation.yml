@@ -17,6 +17,12 @@ main:
     
   - title: "CV"
     url: /cv/
+
+  - title: "Projects"
+    url: /projects/
+    children:
+      - title: "Two Stage Visual Reasoning"
+        url: /projects/TwoStageReason/
     
   # - title: "Guide"
   #   url: /markdown/
