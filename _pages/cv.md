@@ -14,7 +14,7 @@ Education
 <!-- * Ph.D in Version Control Theory, GitHub University, 2018 (expected)
 * M.S. in Jekyll, GitHub University, 2014 -->
 * B.S. major in Computer Science, Shanghai Jiao Tong University, 2025 (expected)
-  * Rank **1**/103, with 27 courses getting A+ and 19 courses getting A out of the 53 courses
+  * Rank **1**/103, with 30 courses getting A+ and 20 courses getting A out of the 57 courses
   * **Zhiyuan Honor Program of Engineering** (an elite program for Top 5% talented students)
 
 Research Experience
@@ -91,5 +91,5 @@ Note
 
 A camera-ready version can be found [here](https://mybearyzhang.github.io/files/cv.pdf). (todo)
 
-*Last Updated on June 16, 2024*
+*Last Updated on July 13, 2024*
 
