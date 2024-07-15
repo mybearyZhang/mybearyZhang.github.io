@@ -144,7 +144,7 @@ title: "Two Stage Reason"
               </span> -->
               <!-- Code Link. -->
               <span class="link-block">
-                <a href="https://github.com/google/nerfies"
+                <a href="https://github.com/mybearyZhang/TwoStageReason"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-github"></i>
@@ -278,6 +278,73 @@ title: "Two Stage Reason"
             Given our findings, we establish design principles for visual reasoning frameworks following the separated symbolization and shared reasoning.
             The proposed two-stage framework achieves impressive generalization ability on various visual reasoning tasks, including puzzles, physical prediction, and visual question answering (VQA), encompassing both 2D and 3D modalities.
             We believe our insights will pave the way for generalizable visual reasoning.
+          </p>
+        </div>
+        <img src="./static/images/teaser_long.png" alt="General Final" width="100%">
+        <h6> Comparison between end-to-end model, human beings, and our framework. A specific end-to-end model is needed for each task, while our framework would share a logical reasoner similar to human intelligence. </h6>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+
+    <!-- Paper video. -->
+    <!-- <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Video</h2>
+        <div class="publication-video">
+          <iframe src="https://www.youtube.com/embed/MrKrnHhk8IA?rel=0&amp;showinfo=0"
+                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div> -->
+    <!--/ Paper video. -->
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Our Two-Stage Perspective</h2>
+        <div class="content has-text-justified">
+          <p>
+            As described above, visual reasoning can be divided into two stages: the
+symbolization stage extracts symbolic representations of the underlying data,
+and the reasoning stage performs logical reasoning.
+For humans, different modalities of visual and auditory information collected
+from our sensors are converted into electrical signals through different pathways
+and then sent to the cerebellar cortex to perform logical reasoning [10]. Anal-
+ogously, separated task-specific symbolizers and a shared domain-independent
+reasoner would be a reasonable choice for a general visual reasoning machine.
+Besides, the reasoner should be capable of performing unified reasoning on input
+information from various modalities. In other words, the essence of reasoning lies
+in its generalization ability.
+Symbolization Stage. During the stage of symbolization, we implement
+various task-oriented feature extraction networks. These networks employ sym-
+bol encoders tailored for each task, transforming multi-modal inputs (text, im-
+age, video) into symbol representations. Formally, suppose we have n tasks. For
+the i-th task, we have the input data xi and the task ti, and the task-oriented
+encoder Ei. Then we get the symbol representation set f i via:
+f i = Ei(xi | ti). (1)
+Reasoning Stage. The reasoner is fed by symbolic representations for each
+specific task, in a bid to capture a deeper and more comprehensive understanding
+of the underlying patterns and relationships embedded within the data. For
+symbol representation sets {f (i)}n
+i=1 of all tasks, we send them into the reasoner
+R, and get its reasoning result set {ci}n
+i=1 after the logic processing to facilitate
+problem-solving across various modalities:
+{ci}n
+i=1 = R({f i}n
+i=1). (2)
+Task-specific Heads. The final part of our framework is the task-specific
+heads, which take the reasoning results from the reasoner as input and gener-
+ate task-specific answers. For different tasks, we need to construct task-specific
+classification or regression heads Hi to get the final output si. That says:
+si = Hi(ci | ti). (3)
+Next, we can compare the output with the ground truth to compute gradients
+for training the entire framework.
+
           </p>
         </div>
       </div>
