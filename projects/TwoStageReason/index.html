@@ -45,6 +45,8 @@ title: "Two Stage Reason"
   <script src="./static/js/bulma-carousel.min.js"></script>
   <script src="./static/js/bulma-slider.min.js"></script>
   <script src="./static/js/index.js"></script>
+  <script id="MathJax-script" async
+        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 <body>
 
@@ -308,42 +310,25 @@ title: "Two Stage Reason"
         <h2 class="title is-3">Our Two-Stage Perspective</h2>
         <div class="content has-text-justified">
           <p>
-            As described above, visual reasoning can be divided into two stages: the
-symbolization stage extracts symbolic representations of the underlying data,
-and the reasoning stage performs logical reasoning.
-For humans, different modalities of visual and auditory information collected
-from our sensors are converted into electrical signals through different pathways
-and then sent to the cerebellar cortex to perform logical reasoning [10]. Anal-
-ogously, separated task-specific symbolizers and a shared domain-independent
-reasoner would be a reasonable choice for a general visual reasoning machine.
-Besides, the reasoner should be capable of performing unified reasoning on input
-information from various modalities. In other words, the essence of reasoning lies
-in its generalization ability.
-Symbolization Stage. During the stage of symbolization, we implement
-various task-oriented feature extraction networks. These networks employ sym-
-bol encoders tailored for each task, transforming multi-modal inputs (text, im-
-age, video) into symbol representations. Formally, suppose we have n tasks. For
-the i-th task, we have the input data xi and the task ti, and the task-oriented
-encoder Ei. Then we get the symbol representation set f i via:
-f i = Ei(xi | ti). (1)
-Reasoning Stage. The reasoner is fed by symbolic representations for each
-specific task, in a bid to capture a deeper and more comprehensive understanding
-of the underlying patterns and relationships embedded within the data. For
-symbol representation sets {f (i)}n
-i=1 of all tasks, we send them into the reasoner
-R, and get its reasoning result set {ci}n
-i=1 after the logic processing to facilitate
-problem-solving across various modalities:
-{ci}n
-i=1 = R({f i}n
-i=1). (2)
-Task-specific Heads. The final part of our framework is the task-specific
-heads, which take the reasoning results from the reasoner as input and gener-
-ate task-specific answers. For different tasks, we need to construct task-specific
-classification or regression heads Hi to get the final output si. That says:
-si = Hi(ci | ti). (3)
-Next, we can compare the output with the ground truth to compute gradients
-for training the entire framework.
+            As described above, visual reasoning can be divided into two stages: the symbolization stage extracts symbolic representations of the underlying data, and the reasoning stage performs logical reasoning.
+            For humans, different modalities of visual and auditory information collected from our sensors are converted into electrical signals through different pathways and then sent to the cerebellar cortex to perform logical reasoning.
+            Analogously, separated task-specific symbolizers and a shared domain-independent reasoner would be a reasonable choice for a general visual reasoning machine.
+            Besides, the reasoner should be capable of performing unified reasoning on input information from various modalities. In other words, the essence of reasoning lies in its generalization ability.
+          </p>
+          <p>
+            <b>Symbolization Stage.</b> During the stage of symbolization, we implement various task-oriented feature extraction networks. These networks employ symbol encoders tailored for each task, transforming multi-modal inputs (text, image, video) into symbol representations. Formally, suppose we have n tasks.
+            For the i-th task, we have the input data xi and the task ti, and the task-oriented encoder \(E^i\). Then we get the symbol representation set \(f^i\) via:
+            \[f^i = E_i(x^i | t^i)\]
+          </p>
+          <p>
+            <b>Reasoning Stage.</b> The reasoner is fed by symbolic representations for each specific task, in a bid to capture a deeper and more comprehensive understanding of the underlying patterns and relationships embedded within the data.
+            For symbol representation sets \(\{f^{(i)}\}_n^{i=1}\) of all tasks, we send them into the reasoner \(R\), and get its reasoning result set \(\{c^i\}_n^{i=1}\) after the logic processing to facilitate problem-solving across various modalities:
+            \[\{c^i\}_n^{i=1} = R(\{f^i\}_n^{i=1}).\]
+          </p>
+          <p>
+            <b>Task-specific Heads.</b> The final part of our framework is the task-specific heads, which take the reasoning results from the reasoner as input and generate task-specific answers. For different tasks, we need to construct task-specific classification or regression heads \(H^i\) to get the final output \(s^i\). That says:
+            \[s^i = H^i(c^i | t^i).\]
+            Next, we can compare the output with the ground truth to compute gradients for training the entire framework.
 
           </p>
         </div>
@@ -369,13 +354,12 @@ for training the entire framework.
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    Under maintenance.
-    <!-- <pre><code>@article{park2021nerfies,
-  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
-  title     = {Nerfies: Deformable Neural Radiance Fields},
-  journal   = {ICCV},
-  year      = {2021},
-}</code></pre> -->
+    <pre><code>@article{zhang2024take,
+  author    = {Zhang, Mingyu and Cai, Jiting and Liu, Mingyu and Xu, Yue and Lu, Cewu and Li, Yong-Lu},
+  title     = {Take A Step Back: Rethinking the Two Stages in Visual Reasoning},
+  journal   = {ECCV},
+  year      = {2024},
+}</code></pre>
   </div>
 </section>
 
