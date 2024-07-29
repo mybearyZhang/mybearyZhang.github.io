@@ -328,10 +328,54 @@ title: "Two Stage Reason"
           <p>
             <b>Task-specific Heads.</b> The final part of our framework is the task-specific heads, which take the reasoning results from the reasoner as input and generate task-specific answers. For different tasks, we need to construct task-specific classification or regression heads \(H^i\) to get the final output \(s^i\). That says:
             \[s^i = H^i(c^i | t^i).\]
-            Next, we can compare the output with the ground truth to compute gradients for training the entire framework.
-
           </p>
         </div>
+        <img src="./static/images/share.png" alt="General Final" width="100%">
+        <h6> 4 Types of disentanglement arrangements of encoders and reasoners. Through experiments, we demonstrate that Type 4: Separated-Encoder-Shared-Reasoner is the most effective. </h6>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+
+    <!-- Paper video. -->
+    <!-- <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Video</h2>
+        <div class="publication-video">
+          <iframe src="https://www.youtube.com/embed/MrKrnHhk8IA?rel=0&amp;showinfo=0"
+                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div> -->
+    <!--/ Paper video. -->
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">LLM-based Models Reasoning</h2>
+        <div class="content has-text-justified">
+          <p>
+            To analyze the performance of LLM-based models,
+            we probe the task according to our two-stage framework design and examine them separately:
+            (1) <b>Symbolization</b>: whether LLM-based models can recognize the elements of the problem.
+            (2) <b>Conceptual</b>: whether LLM-based models can learn specific concepts behind the tasks and reason about them.
+            (3) <b>Answer Generation</b>: whether LLM-based models can utilize the concepts it learns to solve problems.
+            Using MiniGPT-4 as a representative,
+            we summarize the typical responses of LLM-based models to three-level problems in RAVEN and Bongard.
+          </p>
+          <p>
+            We find that LLMs may encounter certain hallucination circumstances while solving visual reasoning tasks. As shown in the figure below, for the RAVEN problem, MiniGPT-4 succeeds in the first level of identifying the object while failing in the second stage of reasoning with the arrangement rule.
+            For RAVEN problems, MiniGPT-4 fails to accurately identify the logical patterns.
+            For the Bongard problem, MiniGPT-4 succeeds in the first level of recognizing human activity and the second level of grasping reasoning logically, yet it fails at the answer generation level and gets lost when utilizing rules to answer 
+            questions.
+            Given the above cases, we can gain an understanding of the shortcomings of the LLM-based models in reasoning tasks, namely its good concept comprehension ability but insufficient performance in logical reasoning and answer generation. 
+          </p>
+        </div>
+        <img src="./static/images/LLM_picture.png" alt="General Final" width="100%">
+        <h6> Failure case analysis of LLM-based model. On RAVEN, it fails on the Symbolization level; while on Bongard-HOI, it fails on the Answer Generation level. </h6>
       </div>
     </div>
     <!--/ Abstract. -->
